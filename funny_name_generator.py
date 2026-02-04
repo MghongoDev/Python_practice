@@ -1,8 +1,11 @@
+# Import sys and random modules
 import sys, random
 
+# Introduce the program to the user
 print("Welcome to the Psych 'Sidekick Name Picker'\n")
 print("A name just like Sean would pick for Gus:\n\n")
 
+# Define tuples of first and last names
 first_name = ('Baby Oil', 'Bad News', 'Big Burps', "Bill 'Beenie-Weenie'",
             "Bob 'Stinkbug'", 'Bowel Noises', 'Boxelder', "Bud 'Lite' ",
             'Butterbean', 'Buttermilk', 'Buttocks', 'Chad', 'Chesterfield',
@@ -34,11 +37,14 @@ last_name = ('Appleyard', 'Bigmeat', 'Bloominshine', 'Boogerbottom',
             'Weiners', 'Whipkey', 'Wigglesworth', 'Wimplesnatch', 'Winterkorn',
             'Woolysocks')
 
+# Initiate while loop to choose names
 while True:
+    # Choose name from first tuple
     firstName = random.choice(first_name)
-
+    # Choose name from second tuple
     lastName = random.choice(last_name)
-
+    
+    # Print funny name
     print("\n\n")
     print("{} {}".format(firstName, lastName), file=sys.stderr)
     print("\n\n")
