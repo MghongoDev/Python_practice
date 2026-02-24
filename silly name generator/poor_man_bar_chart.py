@@ -18,4 +18,5 @@ for character in text:
 print("\nYou may need to stretch console window if text wrapping occurs.\n")
 print("text = ", end="")
 print("{}\n".format(text), file=sys.stderr)
-pprint.pprint(mapped, width=110)
+pprint.pprint(mapped, width=110) 
+
