@@ -6,4 +6,4 @@
     -The pig_latin.py script turns a word into its pig Latin equivalent. It's a fun play on words.
     -The poor_man_bar_chart.py script maps letters from a string into a dictionary and prints a bar chart of frequency of the letters.
 
-2. 
+2. The palingram spells folder contains files with lists of words and python scripts that find the palingrams and palindromes present within the words.
